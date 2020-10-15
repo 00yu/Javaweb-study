@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>超链接文件下载</title>
+</head>
+<body>
+	<a href="/day10/download/day10.jpg">下载 day10.txt</a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+package com.b_datasource.c_warp;
+
+public class CarWrap implements Car {
+	
+	public CarWrap(Car car) {
+		this.car=car;
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

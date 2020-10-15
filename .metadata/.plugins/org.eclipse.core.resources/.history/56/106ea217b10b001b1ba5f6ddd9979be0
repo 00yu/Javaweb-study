@@ -1,0 +1,13 @@
+package com.b_datasource.g_curd;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import com.utils.DataSourceUtils;
+
+public class ResultHandleDemo {
+	public void arrayHandler() {
+		QueryRunner qr=new QueryRunner(DataSourceUtils.getDataSource());
+		String sql="select * from category";
+		Object[] query=qr.query(sql, new ArrayHandler());
+	}
+}

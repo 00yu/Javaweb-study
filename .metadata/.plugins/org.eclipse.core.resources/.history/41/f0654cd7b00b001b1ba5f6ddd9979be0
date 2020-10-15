@@ -1,0 +1,9 @@
+package com.b_datasource.g_curd;
+
+import com.utils.DataSourceUtils;
+
+public class ResultHandleDemo {
+	public void arrayHandler() {
+		QueryRunner qr=new QueryEunner(DataSourceUtils.getDataSource());
+	}
+}

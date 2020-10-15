@@ -1,0 +1,18 @@
+package com.ydh.dao;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import com.ydh.domain.User;
+import com.ydh.utils.DataSourceUtils;
+
+public class UserDao {
+	//登录 返回User
+	public User getUserByUsernameAndPwd(String username, String password) {
+		//创建queryrunner
+		QueryRunner qr=new QueryRunner(DataSourceUtils.getDataSource());
+		//编写sq
+		//执行sql
+		return null;
+	}
+
+}

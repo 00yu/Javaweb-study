@@ -1,0 +1,17 @@
+package com.b_datasource.c_warp;
+
+public class QQ implements Car {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

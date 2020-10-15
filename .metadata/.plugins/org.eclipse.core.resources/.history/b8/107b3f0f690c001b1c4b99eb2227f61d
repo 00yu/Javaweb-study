@@ -1,0 +1,14 @@
+package com.example1;
+
+import org.junit.Test;
+
+public class Demo {
+	@Test
+	public void f1() {
+		//定义一个map集合
+		//往map中放入一个值 key:/hello value:com.HelloMyServlet
+		//通过key获取value
+		//通过全限定名创建一个实例
+		//调用空参的add方法
+	}
+}

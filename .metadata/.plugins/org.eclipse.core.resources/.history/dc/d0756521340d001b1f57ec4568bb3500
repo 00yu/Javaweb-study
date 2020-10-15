@@ -1,0 +1,22 @@
+package com.ydh.web.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class LoginServlet extends HttpServlet{
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		//0.设置编码
+		resp.setContentType("text/html;charset=utf-8");
+		//1.接收用户名和密码
+		String username=req.getParameter("username");
+		String password=req.getParameter("password")
+		//2.调用userservice里的login(username,password)	返回值：User对象
+		//3.判断user是否为空
+		//若为空写"用户名和密码不匹配"，若不为空写"xxx:欢迎回来"
+	}
+}

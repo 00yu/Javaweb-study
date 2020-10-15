@@ -1,0 +1,29 @@
+package com.reflect.Demo;
+
+import org.junit.jupiter.api.Test;
+
+import com.reflect.HelloMyServlet;
+
+public class Demo {
+	@Test
+	public void f1() {
+		//调用HelloMyServlet中的方法
+		HelloMyServlet a=new HelloMyServlet();
+		a.add();
+		a.add(10, 20);
+	}
+	@Test
+	public void f2() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		Class clazz=Class.forName("com.reflect.HelloMyServlet");
+		//通过字节码对象创建一个实例对象
+		HelloMyServlet a=(HelloMyServlet) clazz.newInstance();
+		a.add();
+	}
+	@Test
+	public void f3() throws ClassNotFoundException, NoSuchMethodException, SecurityException{
+		Class clazz=Class.forName("com.reflect.HelloMyServlet");
+		//获取一个方法对象
+		clazz.getMethod("add");
+	}
+}
+

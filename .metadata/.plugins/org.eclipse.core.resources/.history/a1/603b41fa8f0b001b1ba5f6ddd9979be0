@@ -1,0 +1,9 @@
+package com.b_datasource.f_c3p0;
+
+public class C3p0Demo {
+	//硬编码
+	@Test
+	public void f1() {
+		
+	}
+}

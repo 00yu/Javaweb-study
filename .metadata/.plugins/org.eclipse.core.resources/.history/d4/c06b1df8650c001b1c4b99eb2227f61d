@@ -1,0 +1,20 @@
+package com.reflect.Demo;
+
+import org.junit.jupiter.api.Test;
+
+import com.reflect.HelloMyServlet;
+
+public class Demo {
+	@Test
+	public void f1() {
+		//调用HelloMyServlet中的方法
+		HelloMyServlet a=new HelloMyServlet();
+		a.add();
+		a.add(10, 20);
+	}
+	@Test
+	public void f2() throws ClassNotFoundException {
+		Class clazz=Class.forName("com.reflect.HelloMyServlet");
+	}
+}
+

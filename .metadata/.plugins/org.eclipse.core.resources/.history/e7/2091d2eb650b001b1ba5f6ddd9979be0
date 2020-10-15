@@ -1,0 +1,10 @@
+package com.b_datasource.a_my;
+
+public class TestDs {
+	public static void main(String[] args) {
+		//创建连接池
+		new MyDataSource();
+		//获取连接
+		Connection conn=
+	}
+}

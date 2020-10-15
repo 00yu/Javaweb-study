@@ -1,0 +1,16 @@
+package com.b_datasource.g_curd;
+
+import org.apache.commons.dbutils.QueryRunner;
+import org.junit.Test;
+
+import com.utils.DataSourceUtils;
+
+public class CurdDemo {
+	@Test
+	public void insert() {
+		//1.创建queryrunner类
+		QueryRunner qr=new QueryRunner(DataSourceUtils.getDataSource());
+		//2.编写sql
+		//3.执行sql
+	}
+}

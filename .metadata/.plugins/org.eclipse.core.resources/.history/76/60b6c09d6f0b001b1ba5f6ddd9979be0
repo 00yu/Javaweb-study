@@ -1,0 +1,10 @@
+package com.b_datasource.e_dbcp;
+
+import org.junit.Test;
+
+public class DbcpDemo {
+	@Test
+	public void f1() {
+		//硬编码
+	}
+}

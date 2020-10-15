@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- 
+	伪装成http协议
+	http-equiv:响应头
+	content:响应头的内容
+ -->
+<meta http-equiv="refresh" content="3;url=/day10/refresh2.html">
+<title>Insert title here</title>
+</head>
+<body>
+	xxx成功了，<span id="sid">3</span>s后跳转到refresh2.html上
+</body>
+</html>

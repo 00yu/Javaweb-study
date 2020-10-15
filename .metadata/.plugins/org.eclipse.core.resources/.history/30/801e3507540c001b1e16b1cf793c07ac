@@ -1,0 +1,8 @@
+package com.dom4j;
+
+public class Dom4jDemo {
+	public static void main(String[] args) {
+		//创建核心对象
+		//获取document树
+	}
+}

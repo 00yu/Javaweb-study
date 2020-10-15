@@ -1,0 +1,15 @@
+package com.b_datasource.e_dbcp;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.junit.Test;
+
+public class DbcpDemo {
+	//硬编码
+	@Test
+	public void f1() {
+		//创建连接池
+		BasicDataSource ds=new BasicDataSource();
+		//配置信息
+		ds.setDriverClassName("");
+	}
+}
