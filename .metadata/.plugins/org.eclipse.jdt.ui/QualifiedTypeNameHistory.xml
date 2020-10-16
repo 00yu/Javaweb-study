@@ -18,7 +18,6 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.utils.DataSourceUtils"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.ArrayHandler"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.ArrayListHandler"/>
 <fullyQualifiedTypeName name="com.domain.Category"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.BeanListHandler"/>
@@ -31,13 +30,10 @@
 <fullyQualifiedTypeName name="org.dom4j.Element"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.reflect.HelloMyServlet"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="org.dom4j.io.SAXReader"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-<fullyQualifiedTypeName name="com.ydh.service.UserService"/>
-<fullyQualifiedTypeName name="com.ydh.domain.User"/>
 <fullyQualifiedTypeName name="com.ydh.dao.UserDao"/>
 <fullyQualifiedTypeName name="org.apache.commons.dbutils.QueryRunner"/>
 <fullyQualifiedTypeName name="com.ydh.utils.DataSourceUtils"/>
@@ -46,5 +42,17 @@
 <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletOutputStream"/>
+<fullyQualifiedTypeName name="org.apache.commons.io.IOUtils"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.net.URLDecoder"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.net.URLEncoder"/>
+<fullyQualifiedTypeName name="com.ydh.utils.DownLoadUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
+<fullyQualifiedTypeName name="com.ydh.domain.User"/>
+<fullyQualifiedTypeName name="com.ydh.service.UserService"/>
 </qualifiedTypeNameHistroy>

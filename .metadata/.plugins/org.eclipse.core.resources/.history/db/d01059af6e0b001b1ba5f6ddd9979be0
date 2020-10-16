@@ -1,8 +1,0 @@
-package com.utils;
-
-public class DataSourceUtils {
-	//获取连接
-	//获取数据源
-	//释放资源
-
-}
