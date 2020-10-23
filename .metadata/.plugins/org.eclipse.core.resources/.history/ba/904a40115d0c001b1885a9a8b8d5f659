@@ -1,9 +1,0 @@
-package com.xpath;
-
-import org.dom4j.Document;
-import org.dom4j.io.SAXReader;
-
-public class XpathDemo {
-	//加载dom树
-	Document doc=new SAXReader().read("xml/web.xml");
-}
