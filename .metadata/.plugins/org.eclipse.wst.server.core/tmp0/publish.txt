@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Fri Oct 23 19:31:37 CST 2020
-org.eclipse.jst.jee.server\:day1202=D\:\\apache-tomcat-7.0.106\\webapps\\day1202
+#Sun Oct 25 20:05:30 CST 2020
+org.eclipse.jst.jee.server\:day1301=D\:\\apache-tomcat-7.0.106\\webapps\\day1301
+org.eclipse.jst.jee.server\:day14=D\:\\apache-tomcat-7.0.106\\webapps\\day14
