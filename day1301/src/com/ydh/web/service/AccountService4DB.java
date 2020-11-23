@@ -1,13 +1,7 @@
 package com.ydh.web.service;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-
 import com.ydh.utils.DataSourceUtils;
-import com.ydh.utils.JdbcUtils;
-import com.ydh.web.dao.AccountDao;
 import com.ydh.web.dao.AccountDao4DB;
-import com.ydh.web.dao.AccountDao4tl;
 
 public class AccountService4DB {
 

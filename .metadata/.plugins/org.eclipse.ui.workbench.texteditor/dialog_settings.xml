@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="USER LOGIN"/>
+		<item key="selection" value="add"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="User login"/>
+			<item value="add"/>
+			<item value="添加"/>
+			<item value="我的订单"/>
+			<item value="提交"/>
+			<item value="清空"/>
 			<item value="form"/>
+			<item value="购买数量"/>
+			<item value="big01"/>
+			<item value="populate"/>
+			<item value="User login"/>
 			<item value="day09"/>
 			<item value="createstatement"/>
 			<item value="get"/>
 			<item value="getconnection"/>
 			<item value="unwrap"/>
-			<item value="close"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="266"/>
-		<item key="DIALOG_Y_ORIGIN" value="314"/>
+		<item key="DIALOG_X_ORIGIN" value="277"/>
+		<item key="DIALOG_Y_ORIGIN" value="293"/>
 		<item key="DIALOG_WIDTH" value="300"/>
 		<item key="DIALOG_HEIGHT" value="372"/>
 		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>

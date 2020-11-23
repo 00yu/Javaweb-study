@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="ProductDao" class="com.ydh.dao.impl.ProductDaoImpl"/>
+   <bean id="UserDao" class="com.ydh.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.ydh.dao.impl.CategoryDaoImpl"/>
+   <bean id="OrderDao" class="com.ydh.dao.impl.OrderDaoImpl"/>
+   
+   <bean id="CategoryService" class="com.ydh.web.service.impl.CategoryServiceImpl"/>
+   <bean id="ProductService" class="com.ydh.web.service.impl.ProductServiceImpl"/>
+   <bean id="UserService" class="com.ydh.web.service.impl.UserServiceImpl"/>
+   <bean id="OrderService" class="com.ydh.web.service.impl.OrderServiceImpl"/>
+</beans>
